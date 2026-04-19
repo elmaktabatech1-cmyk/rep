@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Production ERP + CRM + Accounting System Backend",
   "type": "module",
+  "main": "server.js",
   "engines": { "node": ">=18.0.0" },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server.js",
     "dev": "node --watch src/server.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
